@@ -1,0 +1,425 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+}
+
+
+/* header */
+#header{
+    width: 1138px;
+    height: 132px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.header_inner{
+    width: 1040;
+    height: 89px;
+    margin: auto;
+}
+.header_inner img{
+    float: left;
+    margin: 24px 0 0 34px;
+    transition: all 1s;
+    
+}
+.header_inner img:hover{
+    transform: rotate(45deg);transition: all 1s;
+}
+.login{
+    float: right;
+    margin-top: 36px;
+}
+.login li{
+    float: left;
+}
+.login a:hover{
+    color: #ddd;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+    display: none;}
+
+.input{
+    margin: 0 34px 0 23px;
+    background: #e0f9fe url(images/reading_glasses.png) no-repeat right 10px top 5px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+}
+.header_inner li{
+    margin-right: 10px;
+}
+
+.nav{
+    width: 682px;
+    height: 36px;
+    margin: auto;
+    font-family: 'BMJUA';
+    font-size: 20px;
+}
+.nav1> li{
+    float: left;
+    margin-right: 70px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 99;
+}
+.nav1> li:nth-child(4){
+    margin-right: 0;
+}
+.nav1> li> a{
+    display: block;
+    padding: 0 20px 11px 20px;
+}
+.nav1 li a:hover{
+    color: #2191ff;
+}
+
+
+/* sub */
+.sub{
+    text-align: center;
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.sub li a{
+    border-bottom: solid 3px rgba(0, 0, 0, 0.7);
+    display: block;
+    padding: 10px 0;
+    display: block;
+    color: black;
+}
+.na{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.sub li:last-child a{
+    border-bottom: 0;
+}
+/* .nav1 li:hover .sub{
+    display: block;
+} */
+
+
+/* main1 */
+#ma1{
+    width: 100%;
+    display: block;
+    margin-bottom: 154px;
+}
+
+
+/* banner2 */
+#bn2{
+    background: url(images/m2_1.jpg) no-repeat center top;
+    height: 304px;
+    margin-bottom: 104px;
+    text-align: center;
+    background-size: 100%;
+}
+#bn2 h1{
+    font-size: 80px;
+    font-family: 'BMJUA';
+    padding-top: 150px;
+    color: white;
+}
+#bn2 h1 a{
+    color: white;
+}
+
+
+/* img1 */
+#img1{
+    width: 1320px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 200px;
+}
+#img1 ul{
+    float: left;
+    width: 390px;
+    height: 409px;
+}
+#img1 h1{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 23px;
+} 
+.pop{
+    margin: 0 75px;
+}
+#img1 li{
+    position: relative;
+   width: 390px;
+   height: 350px;
+}
+.blue_sky{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(221, 245, 249, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.8s;
+}
+#img1 li:hover .blue_sky{
+    visibility: visible;
+    opacity: 1;
+}
+.blue_sky p{
+    padding-top: 120px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/* bn3 */
+#bn3{
+    background: url(images/m3_2.jpg) no-repeat center top;
+    height: 304px;
+    text-align: center;
+    margin-bottom: 94px;
+    background-size: 100%;
+}
+#bn3 h1{
+    font-size: 80px;
+    font-family: 'BMJUA';
+    padding-top: 150px;
+}
+#bn3 h1 a{
+    color: white;
+}
+
+
+/* img2 */
+#img2{
+    width: 1320px;
+    height: 435px;
+    margin: auto;
+    margin-bottom: 154px;
+}
+#img2 ul{
+    float: left;
+    width: 368px;
+    height: 435px;
+}
+#img2 h1{
+    text-align: center;
+    padding-bottom: 38px;
+}
+.dream{
+    margin: 0 108px;
+}
+#img2 li{
+    position: relative;
+    width: 368px;
+    height: 368px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.blue_sky2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(221, 245, 249, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.8s;
+}
+#img2 li:hover .blue_sky2{
+    visibility: visible;
+    opacity: 1;
+}
+.blue_sky2 p{
+    padding-top: 120px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+
+/* event */
+#event{
+    background: url(images/m_event.jpg) no-repeat center top;
+    height: 304px;
+    text-align: center;
+    margin-bottom: 96px;
+    background-size: 100%;
+}
+#event h1{
+    font-size: 80px;
+    font-family: 'BMJUA';
+    padding-top: 150px;
+}
+#event h1 a{
+    color: white;
+}
+
+/* event_content */
+#event_cn{
+    width: 1138px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 200px;
+}
+.summer{
+    float: left;
+    margin-right: 45px;
+    width: 544px;
+    height: 225px;
+    margin-bottom: 50px;
+    display: block;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.lens{
+    float: right;
+    height: 225px;
+    width: 544px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.birth{
+    float: left;
+    width: 544px;
+    height: 225px;
+    margin-right: 45px;
+    display: block;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.fall{
+    float: right;
+    width: 544px;
+    height: 224px;
+    display: block;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+#event_cn a:hover img{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+    transform: translate(10px, 10px);
+}
+#event_cn img{
+    transition: all 0.5s;
+}
+
+
+/* instar */
+#instar{
+    width: 100%;
+    height: 700px;
+    background-color: #ddf5f9;
+}
+.instar_in{
+    width: 1210px;
+    height: 672px;
+    margin: auto;
+}
+.instar_in h2{
+    font-family:'BMJUA';
+    padding: 30px 0;
+    font-size: 36px;
+}
+.instar_in a{
+    float: left;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+}
+.instar_in a:nth-child(5){
+    margin-right: 0;
+}
+.instar_in a:nth-child(9){
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.instar_in a:nth-child(6){
+    margin-bottom: 0;
+}.instar_in a:nth-child(7){
+    margin-bottom: 0;
+}.instar_in a:nth-child(8){
+    margin-bottom: 0;
+}
+.instar_in a:hover img{
+    transform: scale(1.2, 1.2);
+}
+.instar_in img{
+    transition: all 0.5s;
+}
+
+
+/* footer */
+#footer{
+    width: 1320px;
+    height: 268px;
+    margin: auto;
+}
+.logo{
+    padding: 30px 0 40px 0;
+}
+.footer_inner li{
+    float: left;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family:'Nanum Gothic' ;
+}
+.footer_inner li a:hover{
+    font-weight: bold;
+    font-family: 'Nanum Gothic';
+}
+.symbol{
+    float: right;
+    display: block;
+}
+.symbol li{
+    float: left;
+    display: block;
+}
+.symbol a{
+    opacity: 0.5;
+}
+.symbol li a:hover{
+    opacity: 1;
+    
+}
+.facebook{
+    margin: 0 15px;
+}
+.youtube{
+    margin-right: 30px;
+}
+#footer p{
+    clear: both;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 20px;  
+}
