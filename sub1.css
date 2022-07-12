@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+}
+
+
+/* header */
+#header{
+    width: 1138px;
+    height: 132px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.header_inner{
+    width: 1040;
+    height: 89px;
+    margin: auto;
+}
+.header_inner img{
+    float: left;
+    margin: 24px 0 0 34px;
+    transition: all 1s;
+}
+.header_inner img:hover{
+    transform: rotate(45deg);transition: all 1s;
+}
+.login{
+    float: right;
+    margin-top: 36px;
+}
+.login li{
+    float: left;
+}
+.login a:hover{
+    color: #ddd;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+    display: none;}
+
+.input{
+    margin: 0 34px 0 23px;
+    background: #c5ebe4 url(images/reading_glasses.png) no-repeat right 10px top 5px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+}
+.header_inner li{
+    margin-right: 10px;
+}
+
+
+.nav{
+    width: 682px;
+    height: 36px;
+    margin: auto;
+    font-family: 'BMJUA';
+    font-size: 20px;
+}
+.nav1> li{
+    float: left;
+    margin-right: 70px;
+    padding-top: 10px;
+    position: relative;
+}
+.nav1> li:nth-child(4){
+    margin-right: 0;
+}
+.nav1> li> a{
+    display: block;
+    padding: 0 20px 11px 20px;
+}
+.nav li a:hover{
+    color: #2191ff;
+}
+
+
+/* sub */
+.sub{
+    text-align: center;
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.sub li a{
+    border-bottom: solid 3px rgba(0, 0, 0, 0.7);
+    display: block;
+    padding: 10px 0;
+    display: block;
+    color: black;
+}
+.na{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.sub li:last-child a{
+    border-bottom: 0;
+}
+/* .nav1 li:hover .sub{
+    display: block;
+} */
+
+
+/* main_banner */
+#banner{
+    width: 100%;
+    display: block;
+    height: 600px;
+    margin-bottom: 200px;
+}
+#banner img{
+    width: 100%;
+    display: block;
+}
+
+
+/*brand_name*/
+#brand_name{
+    margin: auto;
+    width: 1320px;
+    height: 611px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 36px;
+    margin: 30px 0 50px 0;
+    border: 1px solid #1dedab;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #1dedab;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+/*logo*/
+#logo{
+    margin: auto;
+    width: 100%;
+    height: 950px;
+    background-color: #effafc;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.logo_inner{
+    margin: auto;
+    width: 1080px;
+    height: 768px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+/* color */
+#color{
+    width: 1320px;
+    height: 821px;
+    margin: auto;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+
+/* identity */
+#identity{
+    width: 100%;
+    height: 900px;
+    background-color: #d1fff0;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.identity_inner{
+    margin: auto;
+    height: 700px;
+    width: 1320px;
+    text-align: center;
+}
+.identity_inner ul{
+    margin-top: 30px;
+}
+.identity_inner li{
+    float: left;
+    display: block;
+    width: 380px;
+    height: 656px;
+}
+.margin{
+    margin: 0px 50px;
+}
+.margin p{
+    padding-bottom: 26px;
+}
+h2{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+p{
+    padding-top: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: left;
+}
+.basic{
+    box-shadow: 10px 10px 0 rgb(117, 215, 242);
+}
+.b{
+    text-shadow: 3px 3px 3px rgb(117, 215, 242);
+}
+
+.simple{
+    box-shadow: 10px 10px 0 rgb(76, 213, 250);
+}
+.s{
+    text-shadow: 3px 3px 3px rgb(76, 213, 250);
+}
+.trendy{
+    box-shadow: 10px 10px 0 rgba(0, 121, 255, 1);
+}
+.t{
+    text-shadow: 3px 3px 3px rgba(0, 121, 255, 1);
+}
+
+/* map */
+#map{
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    background: url(images/brand_map.jpg) no-repeat center top;
+    position: relative;
+    margin-bottom: 150px;
+}
+h3{
+    font-size: 36px;
+    font-family: 'Nanum Gothic', sans-serif;
+    position: absolute;
+    top: 47%;
+    left: 46%;
+
+}
+#map a{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 3px solid #2191ff;
+    color: #2191ff;
+    display: inline-block;
+}
+#map a:hover{
+    font-weight: bold;
+    background-color: #2191ff;
+    color: white;
+}
+
+
+/* footer */
+#footer{
+    border-top: 3px solid black;
+    width: 100%;
+    height: 268px;
+}
+.footer_inner{
+    width: 1320px;
+    height: 268px;
+    margin: auto;
+}
+.logo{
+    padding: 30px 0 40px 0;
+}
+.footer_link li{
+    float: left;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family:'Nanum Gothic' ;
+}
+.footer_link li a:hover{
+    font-weight: bold;
+    font-family: 'Nanum Gothic';
+}
+.symbol{
+    float: right;
+    display: block;
+}
+.symbol li{
+    float: left;
+    display: block;
+}
+.symbol a{
+    opacity: 0.5;
+}
+.symbol li a:hover{
+    opacity: 1;
+    
+}
+.facebook{
+    margin: 0 15px;
+}
+.youtube{
+    margin-right: 30px;
+}
+.footer_inner p{
+    clear: both;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 20px;  
+}
