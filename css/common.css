@@ -1,0 +1,51 @@
+* { margin:0; padding:0; }
+
+/* 목록 불릿 없애기 */
+ul{ list-style:none; }
+
+/* 하이퍼링크 설정 */
+a{ text-decoration:none; color:#000; }
+
+
+body { 
+	font-family:'Nanum Gothic', sans-serif; 
+	font-size:24px; 
+	line-height:26px; 
+	color:#000; 
+}
+.board { 
+	width:800px; 
+	margin:auto; 
+	border:1px solid #2191ff; 
+	border-bottom: 0;
+}
+.board li{ 
+	width:100%; 
+}
+.board li a{ 
+	display:block;
+	border-bottom:1px solid #2191ff; 
+	padding:10px 20px;
+	font-weight: bold; 
+	background: url(../images/icon.png) no-repeat 95% 50%;
+}
+.board li:hover a{  
+	font-weight:bold;
+	color: white; 
+	background-color: #2191ff;
+}
+.board li.on a{
+	font-weight:bold; 
+	background: #2191ff url(../images/icon.png) no-repeat 95% 50%;
+}
+.board li:last-child a{
+	border-top:0;
+}
+.board li div{ 
+	width:100%; 
+	border-top:0;
+	padding:10px 20px; 
+	box-sizing:border-box; 
+	display:none;
+	border-bottom:1px solid #2191ff; 
+}
