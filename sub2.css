@@ -1,0 +1,462 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+}
+
+
+/* header */
+#header{
+    width: 1138px;
+    height: 132px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.header_inner{
+    width: 1040;
+    height: 89px;
+    margin: auto;
+}
+.header_inner img{
+    float: left;
+    margin: 24px 0 0 34px;
+    transition: all 1s;
+}
+.header_inner img:hover{
+    transform: rotate(45deg);transition: all 1s;
+}
+.login{
+    float: right;
+    margin-top: 36px;
+}
+.login li{
+    float: left;
+}
+.login a:hover{
+    color: #ddd;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+    display: none;}
+
+.input{
+    margin: 0 34px 0 23px;
+    background: #c5ebe4 url(images/reading_glasses.png) no-repeat right 10px top 5px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+}
+.header_inner li{
+    margin-right: 10px;
+}
+
+
+.nav{
+    width: 682px;
+    height: 36px;
+    margin: auto;
+    font-family: 'BMJUA';
+    font-size: 20px;
+}
+.nav1> li{
+    float: left;
+    margin-right: 70px;
+    padding-top: 10px;
+    position: relative;
+}
+.nav1> li:nth-child(4){
+    margin-right: 0;
+}
+.nav1> li> a{
+    display: block;
+    padding: 0 20px 11px 20px;
+}
+.nav li a:hover{
+    color: #2191ff;
+}
+
+
+/* sub */
+.sub{
+    text-align: center;
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.sub li a{
+    border-bottom: solid 3px rgba(0, 0, 0, 0.7);
+    display: block;
+    padding: 10px 0;
+    display: block;
+    color: black;
+}
+.na{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.sub li:last-child a{
+    border-bottom: 0;
+}
+/* .nav1 li:hover .sub{
+    display: block;
+} */
+
+
+
+/* content */
+#content{
+    width: 100%;
+    height: 4000px;
+    margin: auto ;
+    margin-top: 50px;
+}
+
+/* box1 */
+#box1{
+    width: 960px;
+    height: 856px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* .box1 img:hover{ 
+    transform: scale(1.2, 1.2);
+}
+.box1 img{
+    transition: all 0.5s;
+    overflow: hidden;
+    width: 300px;
+    height: 208px;
+}*/
+
+.glasses{
+    padding: 10px 50px 10px 80px;
+    border: 3px solid #75d7f2;
+    border-radius: 50px;
+    display: inline-block;
+    background: url(images/pr_glasses.png) no-repeat left 20px center;
+    
+}
+.wrap1{
+    width: 960px;
+    height: 328px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.wrap1 li{
+    float: left;
+    display: block;
+    width: 300px;
+}
+.wrap1 a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    padding: 15px 10px 15px 75px;
+    border: 2px hidden black;
+    border-radius: 50px;
+    background-color: #75d7f2;
+    color: white;
+}
+.wrap1 a:hover{
+    background-color: #2191ff;
+    color: white;
+    font-weight: bold;
+}
+.mg{
+    margin: 0 30px 0 30px;
+}
+p{
+    margin: 10px 0 30px 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: block;
+    float: left;
+}
+span{
+    float: right;
+    display: block;
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.l{
+    float: left;
+    display: block;
+    background: url(images/basket.png) no-repeat left 15px center;
+}
+.r{
+    background: url(images/card.png) no-repeat left 15px center;
+    float: right;
+    display: block;
+}
+.wrap2{
+    width: 960px;
+    height: 328px;
+    margin-top: 100px;
+}
+.wrap2 li{
+    float: left;
+    display: block;
+    width: 300px;
+}
+.wrap2 a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    padding: 15px 10px 15px 75px;
+    border: 2px hidden black;
+    border-radius: 50px;
+    background-color: #75d7f2;
+    color: white;
+}
+.wrap2 a:hover{
+    background-color: #2191ff;
+    color: white;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+h2 a{
+    display: inline-block;
+    border: 1px hidden ;
+    background-color: #77f2e6;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+    
+}
+h2 a:hover{
+    background-color: #1dedab;
+}
+
+.botton{
+    display: inline-block;
+    border: 1px hidden ;
+    background-color: #77f2e6;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.botton a{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.botton:hover{
+    background-color: #1dedab
+}
+
+#banner1 img{
+   width: 100%;
+
+}
+
+
+/* box2 */
+#box2{
+    width: 960px;
+    height: 856px;
+    margin: auto;
+    margin-top: 100px;
+}
+.sunglasses{
+    padding: 10px 50px 10px 80px;
+    border: 3px solid #75d7f2;
+    border-radius: 50px;
+    display: inline-block;
+    background: url(images/pr_sunglasses.png) no-repeat left 20px center;
+    
+}
+.wrap3{
+    width: 960px;
+    height: 328px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.wrap3 li{
+    float: left;
+    display: block;
+    width: 300px;
+}
+.wrap3 a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    padding: 15px 10px 15px 75px;
+    border: 2px hidden black;
+    border-radius: 50px;
+    background-color: #75d7f2;
+    color: white;
+}
+.wrap3 a:hover{
+    background-color: #2191ff;
+    color: white;
+    font-weight: bold;
+}
+.wrap4{
+    width: 960px;
+    height: 328px;
+    margin-top: 100px;
+}
+.wrap4 li{
+    float: left;
+    display: block;
+    width: 300px;
+}
+.wrap4 a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    padding: 15px 10px 15px 75px;
+    border: 2px hidden black;
+    border-radius: 50px;
+    background-color: #75d7f2;
+    color: white;
+}
+.wrap4 a:hover{
+    background-color: #2191ff;
+    color: white;
+    font-weight: bold;
+}
+
+#banner2 img{
+    width: 100%;
+}
+
+/* box3 */
+#box3{
+    width: 960px;
+    height: 856px;
+    margin: auto;
+    margin-top: 100px;
+}
+.lens{
+    padding: 10px 50px 10px 80px;
+    border: 3px solid #75d7f2;
+    border-radius: 50px;
+    display: inline-block;
+    background: url(images/pr_lens.png) no-repeat left 20px center;  
+}
+.wrap5{
+    width: 960px;
+    height: 328px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.wrap5 li{
+    float: left;
+    display: block;
+    width: 300px;
+}
+.wrap5 a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    padding: 15px 10px 15px 75px;
+    border: 2px hidden black;
+    border-radius: 50px;
+    background-color: #75d7f2;
+    color: white;
+}
+.wrap5 a:hover{
+    background-color: #2191ff;
+    color: white;
+    font-weight: bold;
+}
+.wrap6{
+    width: 960px;
+    height: 328px;
+    margin-top: 100px;
+}
+.wrap6 li{
+    float: left;
+    display: block;
+    width: 300px;
+}
+.wrap6 a{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    padding: 15px 10px 15px 75px;
+    border: 2px hidden black;
+    border-radius: 50px;
+    background-color: #75d7f2;
+    color: white;
+}
+.wrap6 a:hover{
+    background-color: #2191ff;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* footer*/
+#footer{
+    border-top: 3px solid black;
+    width: 100%;
+    height: 268px;
+}
+.footer_inner{
+    width: 1320px;
+    height: 268px;
+    margin: auto;
+}
+.logo{
+    padding: 30px 0 40px 0;
+}
+.footer_link li{
+    float: left;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family:'Nanum Gothic' ;
+}
+.footer_link li a:hover{
+    font-weight: bold;
+    font-family: 'Nanum Gothic';
+}
+.symbol{
+    float: right;
+    display: block;
+}
+.symbol li{
+    float: left;
+    display: block;
+}
+.symbol a{
+    opacity: 0.5;
+}
+.symbol li a:hover{
+    opacity: 1;
+    
+}
+.facebook{
+    margin: 0 15px;
+}
+.youtube{
+    margin-right: 30px;
+}
+.footer_inner p{
+    clear: both;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 20px;  
+} 
