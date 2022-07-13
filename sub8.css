@@ -231,11 +231,16 @@ h2{
     background-color: #caedf7;
     width: 50%;  
     float: left;
+    height: 785px;
+    position: relative;
 }
 .location{
-    height: 785px;
-    box-sizing: border-box;
+    height: 602px;
     padding: 10% 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 .lo{
     font-size: 36px;
