@@ -16,7 +16,9 @@ body{
     font-size: 14px;
     line-height: 22px;
     color: black;
-}/* header */
+    min-width: 1320px;
+}
+/* header */
 #header{
     width: 1138px;
     height: 132px;
