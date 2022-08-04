@@ -136,7 +136,6 @@ input::-webkit-search-results-decoration{
     height: 304px;
     margin-bottom: 104px;
     text-align: center;
-    background-size: 100%;
 }
 #bn2 h1{
     font-size: 80px;
@@ -204,7 +203,6 @@ input::-webkit-search-results-decoration{
     height: 304px;
     text-align: center;
     margin-bottom: 94px;
-    background-size: 100%;
 }
 #bn3 h1{
     font-size: 80px;
@@ -273,7 +271,6 @@ input::-webkit-search-results-decoration{
     height: 304px;
     text-align: center;
     margin-bottom: 96px;
-    background-size: 100%;
 }
 #event h1{
     font-size: 80px;
